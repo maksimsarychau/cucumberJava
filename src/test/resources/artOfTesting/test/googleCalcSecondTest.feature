@@ -1,0 +1,10 @@
+@important
+Feature: Check addition in Google calculator
+   In order to verify that google calculator work correctly
+   As a user of google
+   I should be able to get correct addition result
+
+   Scenario: Addition
+   Given I open google
+   When I enter "5+5=" in search textbox
+   Then I should get result as "10"
